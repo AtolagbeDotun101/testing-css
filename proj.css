@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(plain2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+    margin: -45px 20px 0 0 ;
+}
+.tophead{
+    text-align: left;
+    margin-left: 50px;
+    color: rgb(5, 5, 73);
+}
+
+a{
+    padding: 20px;
+}
+.subtext{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: roboto;
+    color: rgb(5, 5, 73);
+    text-align: center;
+    margin-top: -50px;
+    margin-right: 380px;
+}
+div{
+    justify-content: right;
+    display: flex;
+    margin-right: 100px;
+}
+.text{
+    font-family: roboto;
+    font-size: 60px;
+    color: rgb(5, 5, 73);
+    text-align: center;
+    margin-top: -230px;
+    margin-right: 260px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    margin-right: 700px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 255, 255, 0);
+    border: solid;
+    color:rgb(5, 5, 73) ;
+    height: 40px;
+    width: 100px;
+    border-color:rgb(5, 5, 73) ;
+    border-radius: 6px;
+}
+ button:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+     border:whitesmoke; 
+    color:rgb(5, 5, 73) ;
+    height: 40px;
+    width: 100px;
+     border-color:rgb(5, 5, 73) ;
+     border-radius: 6px; 
+    border:none; 
+    cursor: pointer;
+}
